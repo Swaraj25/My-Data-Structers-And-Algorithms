@@ -27,5 +27,7 @@ int main(){
     }
     print_adj(g);
     cin>>src;
-    g->bfs(src,edges);
+    g->bfs(src);
+    cin>>src;
+    g->dfs(src);
 }
